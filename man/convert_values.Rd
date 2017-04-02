@@ -7,11 +7,11 @@
 convert_values(x, y, z)
 }
 \arguments{
-\item{x}{Date for the initial entry}
+\item{x}{Date for the initial entry. \code{x} must be in ymd format, e.g., "2017-03-30".}
 
-\item{y}{Value for the initial entry}
+\item{y}{Value for the initial entry.}
 
-\item{z}{Date for the target entry}
+\item{z}{Date for the target entry. \code{z} must be in ymd format, e.g., "1988-09-23".}
 }
 \value{
 Return the inflation incorporated price of the initial price \code{y}, given the initial date \code{x} and target date \code{z}.

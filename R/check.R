@@ -19,9 +19,9 @@ closest_date=function(x){
 
 #' Convert values
 #'
-#' @param x Date for the initial entry
-#' @param y Value for the initial entry
-#' @param z Date for the target entry
+#' @param x Date for the initial entry. \code{x} must be in ymd format, e.g., "2017-03-30".
+#' @param y Value for the initial entry.
+#' @param z Date for the target entry. \code{z} must be in ymd format, e.g., "1988-09-23".
 #' @export
 #' @return Return the inflation incorporated price of the initial price \code{y}, given the initial date \code{x} and target date \code{z}.
 #' @examples
