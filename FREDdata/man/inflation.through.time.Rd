@@ -9,7 +9,7 @@ inflation.through.time(x, y)
 \arguments{
 \item{x}{Date for the initial entry}
 
-\item{y}{Value for the initial entry}
+\item{y}{Date for the final entry}
 }
 \value{
 Plot the calculated CPI for All Urban Consumers \code{x} until \code{y}.
