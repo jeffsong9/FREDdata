@@ -20,5 +20,5 @@ Return the inflation incorporated price of the initial price \code{y}, given the
 Convert values
 }
 \examples{
-> convert_values("2017-03-30", 100, "1988-09-23")
+convert_values("2017-03-30", 100, "1988-09-23")
 }

@@ -18,5 +18,5 @@ Plot the calculated CPI for All Urban Consumers \code{x} until \code{y}.
 Plot Consumer Price Index Through Time
 }
 \examples{
-> inflation.through.time("1975-01-01","1985-01-01")
+inflation.through.time("1975-01-01","1985-01-01")
 }

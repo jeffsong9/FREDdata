@@ -6,9 +6,7 @@ FREDCPI <- read.csv("Data/FREDCPI.csv", stringsAsFactors = F)
 #' @export
 #' @return Return the FRED data with the date that is closest to the initial date \code{x}.
 #' @examples
-#' > closest_date("1988-09-23")
-#'           DATE CPIAUCSL
-#' 502 1988-10-01    119.9
+#' convert_values("2017-03-30", 100, "1988-09-23")
 
 closest_date=function(x){
   y=ymd(FREDCPI$DATE)
@@ -24,7 +22,7 @@ closest_date=function(x){
 #' @export
 #' @return Return the inflation incorporated price of the initial price \code{y}, given the initial date \code{x} and target date \code{z}.
 #' @examples
-#' > convert_values("2017-03-30", 100, "1988-09-23")
+#' convert_values("2017-03-30", 100, "1988-09-23")
 
 
 
@@ -50,7 +48,7 @@ convert_values=function(x, y, z){
 #'@export
 #' @return Plot the calculated CPI for All Urban Consumers \code{x} until \code{y}.
 #' @examples
-#' > inflation.through.time("1975-01-01","1985-01-01")
+#' inflation.through.time("1975-01-01","1985-01-01")
 
 inflation.through.time <- function(x,y){
   FREDCPI$DATE <- ymd(FREDCPI$DATE)
