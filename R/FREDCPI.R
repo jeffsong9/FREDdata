@@ -10,4 +10,4 @@
 #' }
 #' @source \url{https://fred.stlouisfed.org/series/CPIAUCSL}
 
-FRED.CPI <- read.csv("Data/CPIAUCSL.csv", stringsAsFactors = F)
+"FREDCPI"

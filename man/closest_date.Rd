@@ -16,7 +16,6 @@ Return the FRED data with the date that is closest to the initial date \code{x}.
 Obtain the closest date entry in the FRED data set
 }
 \examples{
-The date that is closest from 1988-09-23 in the FRED data set is  1988-10-01 in row 502 with CPIAUCSL 119.9
 > closest_date("1988-09-23")
           DATE CPIAUCSL
 502 1988-10-01    119.9
